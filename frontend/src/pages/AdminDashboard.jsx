@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from 'react';
 import { ArrowDownToLine, LockKeyhole, RefreshCw, ShieldCheck, Users, BriefcaseBusiness, MessageSquareText, Activity } from 'lucide-react';
 
-const API_BASE = (import.meta.env.VITE_API_URL || 'http://localhost:5000').replace(/\/$/, '');
+const API_BASE = 'https://riyadvi-fullstack-assignment-fixed.onrender.com';
 const labels = {
   contact: 'Contact enquiries',
   consultation: 'Consultations',
